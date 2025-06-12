@@ -16,7 +16,7 @@ speed = 5
 
 def draw_menu():
     screen.fill(WHITE)
-    title = FONT.render("게임 시작하려면 아무 키나 누르세요", True, BLUE)
+    title = FONT.render("START GAME", True, BLUE)
     screen.blit(title, (50, HEIGHT // 2 - 24))
     pygame.display.flip()
 
